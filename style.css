@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0; 
+}
+
+#header {
+    height: 5%;
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    transition: .5s;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 3vw;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 3vw;
+    font-size: 3vh;
+    text-align: center;
+}
+
+#film {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(./media/bell-on-bed.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#film h1 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 9vh;
+}
+
+.simple-text-layout h1 {
+    font-size: 6vh;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.simple-text-layout p {
+    font-size: 4vh;
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-right: 10%;
+}
+
+#about {
+    background-image: url(./media/about.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:#fff
+}
+
+#behind-the-scenes {
+    background-image: url(./media/smiling-nancy.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#director {
+    background-image: url(./media/team.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+}
+
+#director p {
+    font-size: 3vh;
+}
+
+#contact {
+    background-image: url(./media/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
