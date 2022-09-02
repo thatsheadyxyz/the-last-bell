@@ -86,10 +86,24 @@ nav a {
     font-size: 3vh;
 }
 
+#team {
+    background-color: black;
+    height: 100vh;
+}
+
 #contact {
     background-image: url(./media/contact.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
+    color: #fff;
+}
+
+#contact h1 {
+    height: 100%;
+    font-size: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
